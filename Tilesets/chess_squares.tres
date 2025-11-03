@@ -1,0 +1,15 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://c40iqlyqb3sau"]
+
+[ext_resource type="Texture2D" uid="uid://d0a6s0e8s253w" path="res://Sprites/chess_tile.svg" id="1_81b0m"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_004p7"]
+texture = ExtResource("1_81b0m")
+texture_region_size = Vector2i(100, 100)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[resource]
+tile_size = Vector2i(100, 100)
+sources/0 = SubResource("TileSetAtlasSource_004p7")
