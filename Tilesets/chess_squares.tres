@@ -1,6 +1,7 @@
-[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://c40iqlyqb3sau"]
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://c40iqlyqb3sau"]
 
 [ext_resource type="Texture2D" uid="uid://d0a6s0e8s253w" path="res://Sprites/chess_tile.svg" id="1_81b0m"]
+[ext_resource type="Texture2D" uid="uid://capas2n0le538" path="res://Sprites/blue_tile.svg" id="2_004p7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_004p7"]
 texture = ExtResource("1_81b0m")
@@ -10,6 +11,12 @@ texture_region_size = Vector2i(100, 100)
 0:1/0 = 0
 1:1/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kirvc"]
+texture = ExtResource("2_004p7")
+texture_region_size = Vector2i(100, 100)
+0:0/0 = 0
+
 [resource]
 tile_size = Vector2i(100, 100)
 sources/0 = SubResource("TileSetAtlasSource_004p7")
+sources/1 = SubResource("TileSetAtlasSource_kirvc")
